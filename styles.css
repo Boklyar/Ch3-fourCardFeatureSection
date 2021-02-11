@@ -1,0 +1,165 @@
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 400;
+}
+
+.header {
+  text-align: center;
+  padding: 92px 10px 82px 10px;
+}
+
+.headerline2 {
+  font-weight: 600;
+}
+
+.subheading {
+  padding: 10px 450px 10px 450px;
+  color: hsl(229, 6%, 66%);
+}
+
+.cards h2 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+.cards p {
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+  padding-bottom: 20px;
+}
+
+
+
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 312px;
+  height: 218px;
+  padding: 28px;
+  margin: 0 32px 28px 32px;
+  border-radius: 3%;
+  position: relative;
+}
+
+.cyan {
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: hsl(180, 62%, 55%);
+}
+
+.red {
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: hsl(0, 78%, 62%);
+}
+
+.blue {
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: hsl(212, 86%, 64%);
+}
+
+.yellow {
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: hsl(34, 97%, 64%);
+}
+
+.image {
+  width: 59px;
+  position: absolute;
+  right: 28px;
+  bottom: 28px;
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .cards {
+    width: 1112px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1080px) and (max-width: 1366px) {
+  .header {
+    width: 600px;
+    margin: auto;
+    padding: 52px 10px 22px 10px;
+  }
+
+  .cards {
+    width: 1112px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+  }
+
+  .subheading {
+    width: 380px;
+    padding: 10px 25px 10px 25px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1079px) {
+  .header {
+    width: 400px;
+    margin-left: 200px;
+    margin-right: 143px;
+    padding: 52px 5px 22px 5px;
+  }
+
+  .cards {
+    width: 400px;
+    padding-left: 10px;
+    margin-left: 200px;
+    align-items: center;
+  }
+
+  .subheading {
+    width: 398px;
+    padding: 10px 30px 10px 30px;
+    margin: auto;
+  }
+}
+@media (min-width: 376px) and (max-width: 767px) {
+  .header {
+    width: 400px;
+    margin:auto;
+    padding: 50px 5px 50px 5px;
+  }
+
+  .cards {
+    width: 400px;
+    padding-left: 10px;
+    margin:auto;
+    align-items: center;
+  }
+
+  .subheading {
+    width: 400px;
+    padding: 10px 5px 10px 5px;
+    margin: auto;
+  }
+}
